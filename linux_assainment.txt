@@ -1,0 +1,59 @@
+Linux Command Line Assignment
+Submitted by: Hari Krishna
+Date: 03-08-2025
+Assignment Title: Basic Linux Commands Practice
+1. Creating and Renaming Files/Directories
+Commands:
+mkdir hari_linux_dir
+cd hari_linux_dir
+touch hari_linux_example.txt
+mv hari_linux_example.txt renamed_hari_linux_example.txt
+Explanation:
+mkdir creates a new directory named hari_linux_dir.
+touch creates an empty file called hari_linux_example.txt.
+mv renames hari_linux_example.txt to renamed_hari_linux_example.txt.
+
+2. Viewing File Contents
+Commands:
+cat /etc/passwd
+head -n 5 /etc/passwd
+tail -n 5 /etc/passwd
+Explanation:
+cat shows the entire contents of the file /etc/passwd.
+head -n 5 shows the first 5 lines.
+tail -n 5 shows the last 5 lines.
+
+3. Searching for Patterns
+Command:
+grep "root" /etc/passwd
+Explanation:
+grep searches for lines containing the word “root” in the file /etc/passwd.
+
+4. Zipping and Unzipping
+Commands:
+cd ..
+zip -r hari_linux_dir.zip hari_linux_dir
+unzip hari_linux_dir.zip -d unzipped_dir
+Explanation:
+zip -r compresses the hari_linux_dir directory recursively.
+unzip -d extracts the zip into unzipped_dir.
+5. Downloading Files
+Command:
+wget https://example.com/sample.txt
+Explanation:
+wget is used to download files from the internet.
+
+6. Changing Permissions
+Commands:
+touch secure.txt
+chmod 444 secure.txt
+Explanation:
+chmod 444 changes file permissions to read-only for all users.
+
+7. Working with Environment Variables
+Commands:
+export MY_VAR="Hello, Linux!"
+echo $MY_VAR
+Explanation:
+export sets the environment variable.
+echo displays its value.
